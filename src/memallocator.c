@@ -41,8 +41,7 @@ void PrintFree(void *p)
     p = *(void**)GetNext(p);
     cnt++;
   }
-  printf("\tNULL\n");
-  printf("\n");
+  printf("\tNULL\n\n");
 } /* end of function */
 
 void PrintMemory(void *p, int maxSize)
@@ -60,8 +59,7 @@ void PrintMemory(void *p, int maxSize)
     size -= abs(pSize);
     cnt++;
   }
-  printf("\tNULL\n");
-  printf("\n");
+  printf("\tNULL\n\n");
 } /* end of function */
 
 /*************************************
