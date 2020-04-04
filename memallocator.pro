@@ -3,8 +3,9 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
-    memallocator.c
+SOURCES += \
+    src/main.c \
+    src/memallocator.c
 
 HEADERS += \
-    memallocator.h
+    src/memallocator.h
